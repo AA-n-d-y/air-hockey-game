@@ -1,4 +1,4 @@
-# Program for a Air Hockey Game using the Turtle Library
+# Program for an Air Hockey Game using the Turtle Library
 #
 #
 #################################################
@@ -433,8 +433,9 @@ window.onkeypress(rightMalletLeft, "Left")
 window.onkeypress(startG, "space")
 window.listen()
 
+# Exiting the game
+window.exitonclick()
+
 
 
 ### End of program
-
-window.exitonclick()
